@@ -1,0 +1,74 @@
+.header{
+background-color: rgb(109, 172, 201);
+margin-bottom: 20px;
+text-align: center;
+}
+
+.headerArea{
+    padding: 20px;
+}
+
+.header div .menuArea{
+   margin-top: 30px;
+}
+
+.header div .menuArea nav{
+    background-color: rgb(27, 50, 126);
+    
+}
+.header div .menuArea nav a{
+    color: white;
+}
+.header div .menuArea nav a:hover{
+    color: orange;
+}
+
+.logo{ 
+    width: 150px;
+}
+
+
+.main .card{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: rgb(109, 172, 201);
+    margin-top: 10px;
+    color: white;
+}
+
+.footerArea{
+    padding: 20px;
+    text-align: center;
+}
+
+
+.main .menuRight{
+    padding-bottom: 20px;
+}
+
+.videos{
+    max-width: 100%;
+    height: 300px;
+    width: 200%;
+    padding-left: 90px;
+    padding-top: 50px;
+    align-content: center;
+}
+
+.caroText iframe{ 
+    max-width: 600px;
+    max-height: 600px;
+}
+
+.caroText{
+    background-color:beige;
+}
+
+.categorias{
+    padding-top: 20px;
+    align-content: center;
+}
+
