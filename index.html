@@ -1,336 +1,635 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/6bf03024a3.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
-    <title>Document</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/6bf03024a3.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+  <title>MPK Filmes</title>
 </head>
 
 <body>
 
-    <!-- page header -->
-    <header class="container header">
-        
-        <div class="row"><!-- container area -->
-           
-            <div class="col-12 headerArea" > <!-- header area -->
-                <div class="row">                    
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-2" > <!-- logo -->
-                        <img src="img/logo.png" alt="logo" class="logo">
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-8 col-lg-10 menuArea">        
-                        <!-- navbar -->
-                        <nav class="nav nav-pills flex-column flex-sm-row">
-                            <a class="flex-sm-fill text-sm-center nav-link" href="#">Lancamentos</a>
-                            <a class="flex-sm-fill text-sm-center nav-link" href="#">Em destaque</a>
-                            <a class="flex-sm-fill text-sm-center nav-link" href="#">Avaliacoes</a>
-                            <a class="flex-sm-fill text-sm-center nav-link" href="#">Entrevistas & Makingof</a>
-                            <a class="flex-sm-fill text-sm-center nav-link" href="#">Novidades</a>
-                        </nav>
-                        <form class="row g-3">
-                          <div class="col-auto">
-                            <label for="staticEmail2" class="visually-hidden">Pesquise</label>
-                            <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Vingadores">
-                          </div>
-                          <div class="col-auto">
-                            <button type="submit" class="btn btn-primary mb-3">Pesquisar</button>
-                          </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>            
-    </header>
+  <!-- page header -->
+  <header class="container header">
 
-    <!-- main content  -->
-    <main class="container main">
-        <div class="row mainArea">
-           
-            <div class="col-12">
-                <!-- two colluns of carosel and button  -->
-                <div class="row">
-                    
-                    <div class="col-12 col-sm-12 col-md-12">
-                        <!-- carosel bar -->
-                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                              <div class="row caroText">
-                                  <div class="col-8">
-                                    <iframe class="videos" src="https://www.youtube.com/embed/Hn8GsjQTUiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                              
-                                    <h5>Elenco</h5>
-                                    <p>Diretor: Michael Chaves </p> 
-                                    <h5>Atores</h5>
-                                    <p>Vera Farmig, Patrick Willson, Sterling Jerlins </p> 
-                                    <h5>Avaliação</h5>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>   
-                                  </div>
-                                  <div class="col-4">
-                                    <h1>Invocação do Mal 3</h1>
-                                    <p>A Ordem do Demônio revela uma história assustadora de terror, assassinato e um desconhecido mal que chocou até os experientes investigadores de atividades paranormais Ed e Lorraine Warren. Um dos casos mais sensacionais de seus arquivos, começa com uma luta pela alma de um garoto, depois os leva para além de tudo o que já haviam visto antes, para marcar a primeira vez na história dos Estados Unidos que um suspeito de assassinato alega ter tido uma possessão demoníaca como defes.</p>
-                                                                                                
-                                  </div>
-                              </div>  
-                              </div>
-                              <div class="carousel-item">
-                                <div class="row caroText">
-                                  <div class="col-8">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/oySHRt64xLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                      <h5>Elenco</h5>
-                                      
-                                    <p>Diretor: Michael Chaves </p> 
-                                      <h5>Atores</h5>
-                                      <p>Joe Taslim, Jessica McNamee, Lewis Tan </p> 
-                                      <h5>Avaliação</h5>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="far fa-star"></i> 
-                                  </div>
-                                  <div class="col-4">
-                                    <h1>Velozes e Furiosos 9</h1>
-                                    <p>O longa vem dando continuidade às corridas eletrizantes da equipe de amigos liderada por Dominic Toretto.</p>
-                                                                                                 
-                                  </div>
-                                </div>  
-                              </div>  
-                             
-                              <div class="carousel-item">
-                                <div class="row caroText">
-                                  <div class="col-8">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yzWWSKn_D14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                      <h5>Elenco</h5>
-                                      <p>Diretor: Michael Chaves </p> 
-                                      <h5>Atores</h5>
-                                      <p>Joe Taslim, Jessica McNamee, Lewis Tan </p> 
-                                      <h5>Avaliação</h5>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="far fa-star"></i>  
-                                  </div>
-                                  <div class="col-4">
-                                    <h1>Mortal Kombat 2021</h1>
-                                    <p>Em Mortal Kombat, o lutador de MMA Cole Young, acostumado a apanhar por dinheiro, não faz ideia da herança que carrega - ou por que o Imperador da Exoterra, Shang Tsung, enviou seu melhor guerreiro, Sub-Zero, um criomancer de outro mundo, para exterminar Cole. Temendo pela segurança de sua família, Cole sai em busca de Sonya Blade por recomendação de Jax, um major das Forças Especiais que tem a mesma estranha marca de nascença na forma de dragão que Cole. Logo, ele se encontra no templo do Lorde Raiden, um Deus Ancião e protetor do reino da Terra, que acolhe aqueles que ostentam a marca. Lá, Cole treina com os experientes guerreiros Liu Kang, Kung Lao e o mercenário vigarista Kano, à medida que se prepara para enfrentar, ao lado dos maiores campeões da Terra, inimigos oriundos da Exoterra em uma arriscada batalha pelo universo.</p>
-                                    
-                                                                                                
-                                  </div>
-                              </div>  
-                              </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
-                            </button>
-                          </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="row categorias">
-              <div class="col-4">
-                <h3>Em destaques</h3>
-              </div>
-              <div class="col-4">
-                <h3>Selecione a categoria desejada</h3>
-              </div>
-              <div class="col-4">
-                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                  <option value="">Categorias</option>
-                  <option value="">Terror</option>
-                  <option value="">Animação</option>
-                  <option value="">Romance</option>
-                  <option value="">Comedia</option>
-                  <option value="">Ação</option>
-              </div>
-              
-            </select>
+    <div class="row">
+      <!-- container area -->
 
-            </div>
-
-
-
-
-            <!-- Anuncio -->
-            <div class="row">
-           
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <img src="img/jhonwick.jpg" class="card-img-top" alt="card1">
-                        <div class="card-body">
-                          <h5 class="card-title">Jhon Wick 3</h5>
-                          <p class="card-text">O lendário John Wick luta para sair de Nova York quando um contrato de 14 milhões de dólares faz dele o alvo dos maiores assassinos do mundo.</p>
-                          <a href="#" class="btn btn-warning">Visitar</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <img src="img/destruicaofinal.jfif" class="card-img-top" alt="card2">
-                        <div class="card-body">
-                          <h5 class="card-title">Destruição Final</h5>
-                          <p class="card-text">The United States vs. Billie Holiday é um futuro filme de drama biográfico estadunidense dirigido por Lee Daniels baseado no livro Chasing the Scream de Johann Hari. É protagonizado por Andra Day no papel principal de Billie Holiday, junto com Trevante Rhodes, Natasha Lyonne, Da'Vine Joy Randolph e Garrett Hedlund.</p>
-                          <a href="#" class="btn btn-warning">Visitar</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <img src="img/escape room.jpg" class="card-img-top" alt="card3">
-                        <div class="card-body">
-                          <h5 class="card-title">Escape Room</h5>
-                          <p class="card-text">Seis estranhos estão em circunstâncias fora de controle e devem usar sua inteligência e encontrar as pistas para escapar ou morrer na tentativa.</p>
-                          <a href="#" class="btn btn-warning">Visitar</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <img src="img/apt_04.jpg" class="card-img-top" alt="card1">
-                        <div class="card-body">
-                          <h5 class="card-title">One Night In Miami</h5>
-                          <p class="card-text">Na noite de 25 de fevereiro de 1964, em Miami, os ícones Muhammad Ali, Malcom X, Sam Cook e Jim Brown se reúnem e discutem seus papéis na luta pelos direitos civis e na revolução cultural dos anos 1960.</p>
-                          <a href="#" class="btn btn-warning">Visitar</a>
-                        </div>
-                      </div>
-                </div>
-            </div>    
-
-            <div class="row categorias">
-              <div class="col-12">
-                <h3>Ultimas avaliações</h3>
-              </div>
-            </select>
-
-            </div>
-
-            <!-- avali -->
-            <div class="row">
-           
-              <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                  <div class="card">
-                      <img src="img/minari.jfif" class="card-img-top" alt="card1">
-                      <div class="card-body">
-                        <h5 class="card-title">Avaliação Minari em busca da felicidade</h5>
-                        <p class="card-text">É uma boa época para ser cinéfilo. Obviamente, ainda temos um longo caminho para percorrer, porém é impossível não se alegrar — e até mesmo se emocionar — com a diversidade que vemos crescendo, de grão em grão, na cultura pop. Uma comunidade cuja voz finalmente está ganhando espaço é a asiática.</p>
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Avaliação Completa
-                        </button>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Autora Katiúscia Vianna</h5>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                              <p>Minari acompanha uma família coreana, se mudando da Califórnia para uma área rural de Arkansas, a fim de recomeçar sua vida. O pai, Jacob (Steven Yeun), arrumou uma terra isolada, onde deseja cultivar vegetais coreanos e criar sua própria fazenda - um plano que não agrada sua esposa, Monica (Han Ye-Ri). Ao mesmo tempo, o público acompanha seu filho, o pequeno David (Alan Kim), que convive com uma doença séria, mas tudo muda com a chegada de sua simpática avó, Soonja (Youn Yuh-Jung). </p>
-                              <p>O filme é inspirado nas memórias da infância do próprio diretor Lee Isaac Chung, que também assina o roteiro. E fica claro como ele tem familiaridade com essa história, mas também carrega maturidade suficiente para não julgar nenhum dos lados envolvidos. Apenas expressa a verdade de cada indivíduo e mostra que, ás vezes, pessoas que se amam podem não se entender, e isso é normal. Não é ideal, só que faz parte da vida — desde que não seja a coisa mais importante dentro de um relacionamento. 
-                                Mas Minari não é uma produção que vive de confrontos dramáticos escandalosos; a narrativa transparece num ritmo suave, sem precisar apelar para grandes gestos a fim de conceber suas discussões. Isso está presente no roteiro e na direção de Lee Isaac Chung, mas também em outros detalhes, como a trilha sonora tocante de Emile Mosseri. Mesmo quando a trama apresenta certas surpresas do destino, não parece que estamos vendo uma obra de ficção, mas sim acompanhando coisas que poderiam acontecer com qualquer família, de tão investidos que ficamos. É uma espécie de realismo, só que mais singelo, visto com emoção.</p>  
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                          </div>
-                        </div>
-                        </div>
-                      </div>
-                    </div>
-              </div>
-
-            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                  <div class="card">
-                      <img src="img/minari.jfif" class="card-img-top" alt="card2">
-                      <div class="card-body">
-                        <h5 class="card-title">Avaliação Minari em busca da felicidade</h5>
-                        <p class="card-text">É uma boa época para ser cinéfilo. Obviamente, ainda temos um longo caminho para percorrer, porém é impossível não se alegrar — e até mesmo se emocionar — com a diversidade que vemos crescendo, de grão em grão, na cultura pop. Uma comunidade cuja voz finalmente está ganhando espaço é a asiática.</p>
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Avaliação Completa
-                        </button>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Luiza Viana</h5>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                              <p>rodução que vive de confrontos dramáticos escandalosos; a narrativa transparece num ritmo suave, sem precisar apelar para grandes gestos a fim de conceber suas discussões. Isso está presente no roteiro e na direção de Lee Isaac Chung, mas também em outros detalhes, como a trilha sonora tocante de Emile Mosseri. Mesmo quando a trama apresenta certas surpresas do destino, não parece que estamos vendo uma obra de ficção, mas sim acompanhando coisas que poderiam acontecer com qualquer família, de tão investidos que ficamos. É uma espécie de realismo, só que mais singelo, visto com emoção.</p>  
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                          </div>
-                        </div>
-                        </div>
-                      </div>
-                    </div>
-              </div>
-              
-              <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                  <div class="card">
-                      <img src="img/escape room.jpg" class="card-img-top" alt="card3">
-                      <div class="card-body">
-                        <h5 class="card-title">Escape Room</h5>
-                        <p class="card-text">Seis estranhos estão em circunstâncias fora de controle e devem usar sua inteligência e encontrar as pistas para escapar ou morrer na tentativa.</p>
-                        <a href="#" class="btn btn-warning">Visitar</a>
-                      </div>
-                    </div>
-              </div>
-              <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                  <div class="card">
-                      <img src="img/apt_04.jpg" class="card-img-top" alt="card1">
-                      <div class="card-body">
-                        <h5 class="card-title">One Night In Miami</h5>
-                        <p class="card-text">Na noite de 25 de fevereiro de 1964, em Miami, os ícones Muhammad Ali, Malcom X, Sam Cook e Jim Brown se reúnem e discutem seus papéis na luta pelos direitos civis e na revolução cultural dos anos 1960.</p>
-                        <a href="#" class="btn btn-warning">Visitar</a>
-                      </div>
-                    </div>
-              </div>
-          </div> 
-        </div> 
-        
-    </main>
-
-    <!-- page footer  -->
-    <footer class="container footer">
+      <div class="col-12 headerArea">
+        <!-- header area -->
         <div class="row">
-           
-            <div class="col-12 footerArea">
-                MOB imoveis - reserved by Lhuizito
+          <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+            <!-- logo -->
+            <img src="img/newlogo.png" alt="logo" class="logo">
+          </div>
+          <div class="col-12 col-sm-12 col-md-8 col-lg-10 menuArea">
+            <!-- navbar -->
+            <nav class="nav nav-pills flex-column flex-sm-row">
+              <a class="flex-sm-fill text-sm-center nav-link" href="#">Lancamentos</a>
+              <a class="flex-sm-fill text-sm-center nav-link" href="#">Em destaque</a>
+              <a class="flex-sm-fill text-sm-center nav-link" href="#">Avaliacoes</a>
+              <a class="flex-sm-fill text-sm-center nav-link" href="#">Entrevistas & Makingof</a>
+              <a class="flex-sm-fill text-sm-center nav-link" href="#">Novidades</a>
+            </nav>
+            <form class="row g-3">
+              <div class="col-auto">
+                <label for="staticEmail2" class="visually-hidden">Pesquise</label>
+                <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Vingadores">
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3">Pesquisar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- main content  -->
+  <main class="container main">
+    <div class="row mainArea">
+
+      <div class="col-12">
+        <!-- two colluns of carosel and button  -->
+        <div class="row">
+
+          <div class="col-12 col-sm-12 col-md-12">
+            <!-- carosel bar -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row caroText">
+                    <div class="col-8">
+                      <iframe class="videos" src="https://www.youtube.com/embed/Hn8GsjQTUiM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                      <h5>Elenco</h5>
+                      <p>Diretor: Michael Chaves </p>
+                      <h5>Atores</h5>
+                      <p>Vera Farmig, Patrick Willson, Sterling Jerlins </p>
+                      <h5>Avaliação</h5>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="col-4">
+                      <h1>Invocação do Mal 3</h1>
+                      <p>A Ordem do Demônio revela uma história assustadora de terror, assassinato e um desconhecido mal
+                        que chocou até os experientes investigadores de atividades paranormais Ed e Lorraine Warren. Um
+                        dos casos mais sensacionais de seus arquivos, começa com uma luta pela alma de um garoto, depois
+                        os leva para além de tudo o que já haviam visto antes, para marcar a primeira vez na história
+                        dos Estados Unidos que um suspeito de assassinato alega ter tido uma possessão demoníaca como
+                        defes.</p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row caroText">
+                    <div class="col-8">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/oySHRt64xLk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                      <h5>Elenco</h5>
+
+                      <p>Diretor: Michael Chaves </p>
+                      <h5>Atores</h5>
+                      <p>Joe Taslim, Jessica McNamee, Lewis Tan </p>
+                      <h5>Avaliação</h5>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="col-4">
+                      <h1>Velozes e Furiosos 9</h1>
+                      <p>O longa vem dando continuidade às corridas eletrizantes da equipe de amigos liderada por
+                        Dominic Toretto.</p>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row caroText">
+                    <div class="col-8">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/yzWWSKn_D14"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                      <h5>Elenco</h5>
+                      <p>Diretor: Michael Chaves </p>
+                      <h5>Atores</h5>
+                      <p>Joe Taslim, Jessica McNamee, Lewis Tan </p>
+                      <h5>Avaliação</h5>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="col-4">
+                      <h1>Mortal Kombat 2021</h1>
+                      <p>Em Mortal Kombat, o lutador de MMA Cole Young, acostumado a apanhar por dinheiro, não faz ideia
+                        da herança que carrega - ou por que o Imperador da Exoterra, Shang Tsung, enviou seu melhor
+                        guerreiro, Sub-Zero, um criomancer de outro mundo, para exterminar Cole. Temendo pela segurança
+                        de sua família, Cole sai em busca de Sonya Blade por recomendação de Jax, um major das Forças
+                        Especiais que tem a mesma estranha marca de nascença na forma de dragão que Cole. Logo, ele se
+                        encontra no templo do Lorde Raiden, um Deus Ancião e protetor do reino da Terra, que acolhe
+                        aqueles que ostentam a marca. Lá, Cole treina com os experientes guerreiros Liu Kang, Kung Lao e
+                        o mercenário vigarista Kano, à medida que se prepara para enfrentar, ao lado dos maiores
+                        campeões da Terra, inimigos oriundos da Exoterra em uma arriscada batalha pelo universo.</p>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row categorias">
+        <div class="col-4">
+          <h3>Em destaques</h3>
+        </div>
+        <div class="col-4">
+          <h3>Selecione a categoria desejada</h3>
+        </div>
+        <div class="col-4">
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option value="">Categorias</option>
+            <option value="">Terror</option>
+            <option value="">Animação</option>
+            <option value="">Romance</option>
+            <option value="">Comedia</option>
+            <option value="">Ação</option>
+        </div>
+
+        </select>
+
+      </div>
+
+
+
+
+      <!-- Anuncio -->
+      <div class="row">
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img src="img/jhonwick.jpg" class="card-img-top" alt="card1">
+            <div class="card-body">
+              <h5 class="card-title">Jhon Wick 3</h5>
+              <p class="card-text">O lendário John Wick luta para sair de Nova York quando um contrato de 14 milhões de
+                dólares faz dele o alvo dos maiores assassinos do mundo.</p>
+              <a href="#" class="btn btn-warning">Visualizar Completo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img src="img/destruicaofinal.jfif" class="card-img-top" alt="card2">
+            <div class="card-body">
+              <h5 class="card-title">Destruição Final</h5>
+              <p class="card-text">The United States vs. Billie Holiday é um futuro filme de drama biográfico
+                estadunidense dirigido por Lee Daniels baseado no livro Chasing the Scream de Johann Hari. É
+                protagonizado por Andra Day no papel principal de Billie Holiday, junto com Trevante Rhodes, Natasha
+                Lyonne, Da'Vine Joy Randolph e Garrett Hedlund.</p>
+              <a href="#" class="btn btn-warning">Visualizar Completo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img src="img/escape room.jpg" class="card-img-top" alt="card3">
+            <div class="card-body">
+              <h5 class="card-title">Escape Room</h5>
+              <p class="card-text">Seis estranhos estão em circunstâncias fora de controle e devem usar sua inteligência
+                e encontrar as pistas para escapar ou morrer na tentativa.</p>
+              <a href="#" class="btn btn-warning">Visualizar Completo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img src="img/onenigh.jfif" class="card-img-top" alt="card1">
+            <div class="card-body">
+              <h5 class="card-title">One Night In Miami</h5>
+              <p class="card-text">Na noite de 25 de fevereiro de 1964, em Miami, os ícones Muhammad Ali, Malcom X, Sam
+                Cook e Jim Brown se reúnem e discutem seus papéis na luta pelos direitos civis e na revolução cultural
+                dos anos 1960.</p>
+              <a href="#" class="btn btn-warning">Visualizar Completo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row categorias">
+        <div class="col-12">
+          <h3>Ultimas avaliações</h3>
+        </div>
+        </select>
+
+      </div>
+
+      <!-- avali -->
+      <div class="row">
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img src="img/minari.jfif" class="card-img-top" alt="card1">
+            <div class="card-body">
+              <h5 class="card-title">Avaliação Minari em busca da felicidade</h5>
+              <p class="card-text">É uma boa época para ser cinéfilo. Obviamente, ainda temos um longo caminho para
+                percorrer, porém é impossível não se alegrar — e até mesmo se emocionar — com a diversidade que vemos
+                crescendo, de grão em grão, na cultura pop. Uma comunidade cuja voz finalmente está ganhando espaço é a
+                asiática.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Avaliação Completa
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Autora Katiúscia Vianna</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Minari acompanha uma família coreana, se mudando da Califórnia para uma área rural de Arkansas,
+                        a fim de recomeçar sua vida. O pai, Jacob (Steven Yeun), arrumou uma terra isolada, onde deseja
+                        cultivar vegetais coreanos e criar sua própria fazenda - um plano que não agrada sua esposa,
+                        Monica (Han Ye-Ri). Ao mesmo tempo, o público acompanha seu filho, o pequeno David (Alan Kim),
+                        que convive com uma doença séria, mas tudo muda com a chegada de sua simpática avó, Soonja (Youn
+                        Yuh-Jung). </p>
+                      <p>O filme é inspirado nas memórias da infância do próprio diretor Lee Isaac Chung, que também
+                        assina o roteiro. E fica claro como ele tem familiaridade com essa história, mas também carrega
+                        maturidade suficiente para não julgar nenhum dos lados envolvidos. Apenas expressa a verdade de
+                        cada indivíduo e mostra que, ás vezes, pessoas que se amam podem não se entender, e isso é
+                        normal. Não é ideal, só que faz parte da vida — desde que não seja a coisa mais importante
+                        dentro de um relacionamento.
+                        Mas Minari não é uma produção que vive de confrontos dramáticos escandalosos; a narrativa
+                        transparece num ritmo suave, sem precisar apelar para grandes gestos a fim de conceber suas
+                        discussões. Isso está presente no roteiro e na direção de Lee Isaac Chung, mas também em outros
+                        detalhes, como a trilha sonora tocante de Emile Mosseri. Mesmo quando a trama apresenta certas
+                        surpresas do destino, não parece que estamos vendo uma obra de ficção, mas sim acompanhando
+                        coisas que poderiam acontecer com qualquer família, de tão investidos que ficamos. É uma espécie
+                        de realismo, só que mais singelo, visto com emoção.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
         </div>
-    </footer>
-    
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img src="img/another.jpg" class="card-img-top" alt="card2">
+            <div class="card-body">
+              <h5 class="card-title">Druk - Mais uma Rodada</h5>
+              <p class="card-text"> Para alegrar um amigo em crise, um grupo de professores decide testar a ousada
+                teoria de que serão mais felizes e bem-sucedidos vivendo com um pouco de álcool no sangue.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Avaliação Completa
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Bernad Colliet</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p> Se você queria ver Mads Mikkelsen bebendo até cair e mostrando um certeiro timing cômico, você
+                        acaba de achar seu filme do ano. “Another Round”, longa de Thomas Vinterberg que estreou em
+                        Toronto e foi exibido no Festival de Londres deste ano, reúne o cineasta com o astro de seu hit
+                        “A Caça“. No entanto, os resultados não poderiam ser mais diferentes: enquanto sua parceria
+                        anterior é um dos dramas mais pungentes da última década, a nova é uma buddy comedy no estilo
+                        “Se Beber Não Case” feita com o seco humor escandinavo.
+
+                        Mikkelsen é Martin, um professor quarentão que acha que seus anos dourados já passaram. Sua
+                        mulher o evita, seus alunos o acham um saco e sua vida parece bastante estagnada. Durante um
+                        jantar com seus amigos – todos professores contemporâneos em situações similares – surge um
+                        debate acalorado acerca da teoria do psiquiatra Finn Skårderud de que os seres humanos possuem
+                        um déficit de teor alcoólico no sangue, que deveria ser compensado diariamente para uma vida
+                        mais plena. Achando que não têm nada a perder, eles decidem testar essa hipótese, o que
+                        desencadeia uma louca e tocante sequência de eventos.
+
+                        Escrito por Vinterberg e outro de seus colaboradores habituais, Tobias Lindholm, o roteiro
+                        abraça todas os absurdos e contradições de sua proposta e das personagens. Em outras mãos, este
+                        seria apenas outro filme com quarentões bebendo até cair, com piadas fáceis envolvendo
+                        embriaguez e nudez. Os realizadores, no entanto, estão mais interessados em usar a premissa para
+                        expor os efeitos da idade e do tempo.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img src="img/Love_and_Monsters.jpeg" class="card-img-top" alt="card2">
+            <div class="card-body">
+              <h5 class="card-title">Amor e Monstros</h5>
+              <p class="card-text"> Love and Monsters é um filme de comédia romântica e ação pós-apocalíptica dirigido
+                por Michael Matthews, e produzido por Shawn Levy e Dan Cohen. O filme é estrelado por Dylan O'Brien,
+                Michael Rooker, Ariana Greenblatt e Jessica Henwick.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Avaliação Completa
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Katiúscia Vianna</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p> primeira vista, a trama de Amor e Monstros apresenta diversas similaridades com Zumbilândia;
+                        bastando apenas subsituir os antagonistas da história. Trata-se de um jovem medroso, porém
+                        simpático, tentando sobreviver, enquanto encontra outros sobreviventes: um homem mais velho,
+                        sábio e meio estranho (Michael Rooker, de Guardiões da Galáxia), uma criança sagaz (Ariana
+                        Greenblatt, maravilhosa) e um interesse amoroso bad ass (Henwick). Logo, sua história não é a
+                        coisa mais revolucionária que existe no planeta. Mas isso não significa que seja uma decepção.
+
+                        Tendo dito isso, o grande trunfo do filme dirigido por Michael Matthews é que ele sabe dosar
+                        seus momentos de humor com muita emoção. Ao invés de focar nos monstros (como muitos filmes do
+                        gênero cometem tal erro), o coração da trama está na humanidade de seus sobreviventes. Os
+                        diálogos do roteiro de Brian Duffield (A Babá) e Matthew Robinson (Dora e a Cidade Perdida)
+                        carregam muita sinceridade, fazendo o público se identificar rapidamente com os personagens, com
+                        momentos geniunamente engraçados.
+
+                        Curiosidade: Matthews afirma que sua inspiração não veio de Zumbilândia, mas sim do game The
+                        Last of Us (que vai virar série de TV). E é possível ver isso, pelo menos, no figurino de Joel,
+                        que parece muito com o visual de Ellie no popular jogo.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img src="img/silence.jpg" class="card-img-top" alt="card2">
+            <div class="card-body">
+              <h5 class="card-title">Som do Silencio</h5>
+              <p class="card-text"> A vida de um jovem baterista muda totalmente quando ele percebe que está perdendo a
+                audição. As suas duas grande paixões estão em jogo: a música e a sua namorada, integrante da mesma banda
+                de heavy metal que ele faz parte.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Avaliação Completa
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Katiúscia Vianna</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p> Riz Ahmed é um daqueles atores que sabem diversificar a carreira. Já foi piloto em Star Wars,
+                        mas também aparece em queridinhos da crítica como O Abutre. Ganhou o Emmy Award por The Night
+                        Of, mas surgiu todo misterioso em The OA, cancelada de forma tão polêmica. Só que ainda estava
+                        faltando um papel protagonista que dê espaço para todo seu talento nos cinemas. Chega então
+                        Sound of Metal.
+
+                        Estreia de Darius Marder na direção, o drama acompanha a história de Ruben, um baterista que
+                        vive de maneira nômade com a namorada e parceira de banda, Lou (Olivia Cooke). O problema surge
+                        quando sua audição começa a se deteriorar rapidamente, precisando afastá-lo da música. Ele quer
+                        ignorar o problema e acumular dinheiro suficiente para colocar um implante, mas ela o convence a
+                        entrar para uma comunidade de surdos.
+                        Nesse local que ajuda necessitados, Ruben não terá contato com o mundo exterior (inclusive sua
+                        amada, que lhe ajudou a sair do vício durante quatro anos). Só que o músico não quer aceitar tal
+                        vida, mesmo que, aos poucos, construa um novo tipo de existência em tal grupo. A partir disso,
+                        Marder nos apresenta uma visão tão intimista e sincera sobre a comunidade surda que é impossível
+                        não se deixar levar pela história, te conquistando com personagens como Joe (Paul Raci) — o
+                        sábio, porém rígido, líder do abrigo que hospeda o protagonista.
+
+                        Se essa parece ser uma realidade afastada para aqueles que têm audição, o filme apresenta uma
+                        solução criativa para criar conexão com o espectador, colocando-o no lugar de Ruben. A partir de
+                        incríveis edição e mixagem de som, nós experimentamos tudo que ele consegue (ou não) ouvir.
+                        Marder usa o silêncio e ruído como parte da história, sendo tão essenciais para contá-la quanto
+                        palavras e sinais emitidos pelos personagens. Fica aqui um salve de palmas para o supervisor de
+                        som Nicolas Becker, que já trabalhou em filmes como Gravidade e A Chegada.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-group">
+          <div class="card">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/anOObPvdXH4"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Making Of Alien</h5>
+              <p class="card-text">Nesse making of mostra como o diretor via o filme</p>
+              <p class="card-text"><small class="text-muted">Ultimo update a 5 horas</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/j-CupRZbZT8"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Making Of Matrix</h5>
+              <p class="card-text">Nesse making of mostra como eram produzido os efeitos especiais de matrix.</p>
+              <p class="card-text"><small class="text-muted">Ultima atualização a 10 horas</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <iframe width="416" height="315" src="https://www.youtube.com/embed/0PfH-Zqxq9g"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Making Of Vingadores</h5>
+              <p class="card-text">Nesse making of mostra como os atores de Vingadores se divertem ao produzir o filme
+              </p>
+              <p class="card-text"><small class="text-muted">Ultima atualização a 6 horas</small></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <section class="row novis">
+      <div class="col-12 col-sm-8 col-md-8 col-lg-8">
+
+        <h1>Noticías</h1>
+        <div class="row">
+
+          <div class="col-4 novi">
+            <img src="img/pirate.jpg
+                      
+                      ">
+          </div>
+
+          <div class="col-8">
+            <h6>10 Filmes mais pirateados da semana</h6>
+            <p>Esse são os 10 filmes mais pirateados da semana de acordo com Canal Tech</p>
+            <a href="https://canaltech.com.br/entretenimento/filmes-mais-pirateados-semana-25042021-183433/">
+              Leia completo </a>
+          </div>
+
+          <div class="col-4 novi">
+            <img src="img/netflixlab.jpg">
+          </div>
+
+          <div class="col-8">
+            <h6>10 melhores filmes da Netflix em 2021</h6>
+            <p>Veja os melhores lançamentos da Netflix e fique </p>
+            <a href="https://www.revistabula.com/38073-os-10-melhores-filmes-recentes-para-ver-na-netflix-em-2021/">
+              Leia completo</a>
+          </div>
+
+          <div class="col-4 novi">
+            <img src="img/arranha-ceu.jpg">
+          </div>
+
+          <div class="col-8">
+            <h6>40 melhores filmes para ver na quarentena de 2021</h6>
+            <p>Selecionamos os melhores filmes para voçê! Confira!
+            </p>
+            <a
+              href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.oficinadanet.com.br%2Fnetflix2021%2F34205-filmes-para-assistir-nas-ferias-de-2021-na-netflix&psig=AOvVaw3vE05Jqg8_rk6XLOIXrPhf&ust=1619746373558000&source=images&cd=vfe&ved=0CAsQjhxqFwoTCMiU5MunovACFQAAAAAdAAAAABAK">
+              Leia completo</a>
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+      <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+        <div>
+          <h4>Sobre:</h4>
+          <p>
+            Melhor site MPK Filmes!
+          </p>
+          <div>
+            <h4>Editores</h4>
+
+            <b>Redação: </b>
+            <p>Luiz Henrique Oliveira de Assis</p>
+
+            <b>Pesquisa: </b>
+            <p>Luiz Henrique Oliveira de Assis</p>
+
+            <b>Gerente Geral: </b>
+            <p>Luiz Henrique Oliveira de Assis</p>
+          </div>
+
+          <div class="ic">
+            <h5>redes sociais:</h5>
+            <a href="#" class="fab fa-instagram"> Instagram oficial do Blog</a>
+
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-zap" class="fab fa-whatsapp-square">
+              Contato dos editores do Blog</a>
+            <p>Entre em contato e passe seu feedback</p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+  </main>
+
+  </main>
+
+  <!-- page footer  -->
+  <footer class="container footer">
+    <div class="row">
+
+      <div class="col-12 footerArea">
+        MPK Filmes - reserved by Luiz Henrique Oliveira de Assis - PUC Minas
+      </div>
+
+    </div>
+  </footer>
 
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>    
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
